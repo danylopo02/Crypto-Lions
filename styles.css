@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-size: 20px;
+  color: #fff;
+}
+
+.highlight {
+  color: #f7931a; /* Orange accent */
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f7931a;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  background-color: #f7931a;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.social-icons a:hover {
+  background-color: #e67e22;
+}
+
+.hero {
+  padding: 60px 40px;
+  color: white;
+  background: #BE6008;
+background: radial-gradient(circle, rgba(190, 96, 8, 1) 0%, rgba(0, 0, 0, 1) 59%);
+}
+
+.hero-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+  margin: 0 auto;
+}
+
+.hero-text {
+    font-size: large;
+  align-items: center;
+}
+
+.hero-text{
+  font-size: 3.5vw;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.orange-text {
+    position: absolute;
+  color: #f7931a;
+  display: inline-block;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.5vh;
+  -webkit-text-stroke-color: black;
+  z-index: 100;
+  padding-top: 1.5%;
+  padding-left: 7.5%;
+}
+
+.hero-image {
+  max-width: auto;
+  height: auto;
+  align-items: center;
+  max-height:max-content;
+}
+.curved-edge {
+  position: absolute;
+  --c: 60px; /* control the curvature (works with percentage) */
+  height: 80vh;
+  width: 100%;
+  aspect-ratio: 1;
+  /* you can also update the 60%  */
+  mask: radial-gradient(50% var(--c) at 50% var(--c),#0000 calc(100% - 3px),#000) 0 calc(-1*var(--c));
+  background:#E8921D;
+  top: 70%;
+
+}
+
+.round-logo{
+  margin-left: 45%;
+  z-index: 100;
+  position: absolute;
+  top: 65%;
+}
+.text-box{
+  margin-top: 10%;
+  padding-top: 0.5%;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.box1, .box2, .box3{
+  height: 13.5vh;
+  width: 35vh;
+  background-color: white;
+border-radius: 50px;
+padding: 1%;
+}
+.box1{
+  margin-left: 1%;
+   transform: rotate(15deg);
+   box-shadow: 10px 10px 10px rgb(30, 26, 26);
+}
+.box2{
+   margin-top: 5%; 
+   box-shadow: 10px 10px 10px rgb(30, 26, 26);
+}
+.box3{
+  margin-left: 1%;
+  margin-top: 5%; 
+  transform: rotate(-15deg);
+  box-shadow: 10px 10px 10px rgb(30, 26, 26);
+}
+.box-heading{
+  color: #E8921D;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2%;
+}
+.box-text{
+  text-align: center;
+  padding: 2%;
+}
+.Graffity-left{
+  position: absolute;
+  top: 0.1%;
+  z-index: -1;
+  left: 0px;
+height: 70vh;
+}
+
+.cl2{
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  z-index: -1;
+}
+.Graffity-right{
+  position: absolute;
+  top: 30%;
+  right: 0px;
+  z-index: inherit;
+  height: 70vh;
+}
+.box-left-text{
+ text-align: end;
+}
