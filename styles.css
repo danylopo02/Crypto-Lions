@@ -312,11 +312,12 @@ height: 70vh;
 */
 .cl2 {
   position: absolute;
-  top: 10%; /* break out */
+  top: 20%; /* break out */
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
   pointer-events: none;
+  width: 75%;
 }
 
 .content {
