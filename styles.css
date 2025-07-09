@@ -205,25 +205,25 @@ height: 70vh;
 .box-left-text{
  text-align: end;
 }*/
-.curved-edge {
+/*.curved-edge {
   position: relative;
   align-items: center;
-/*--c: 60px; control the curvature (works with percentage)*/
+/*--c: 60px; control the curvature (works with percentage)
   height: 80vh;
   width: 100%;
   aspect-ratio: 1;
-  /*you can also update the 60%  */
+  /*you can also update the 60% 
   mask: radial-gradient(50% var(--c) at 50% var(--c),#0000 calc(100% - 3px),#000) 0 calc(-1*var(--c));
   background:#E8921D;
   top: 70%;
 
-}
+}*/
 
 .round-logo{
   margin-left: 45%;
-  z-index: 100;
+  z-index: 1;
   position: absolute;
-  top: 65%;
+  top: 75%;
   width: 70%; 
 }
 .text-box{
